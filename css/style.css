@@ -1,0 +1,58 @@
+/* #region Base */
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+/* #endregion */
+
+.portfolio {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.project {
+  display: flex;
+  gap: 20px;
+  border: 1px solid lightgrey;
+  max-width: 850px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
+.project-img {
+  width: 300px;
+}
+
+.project-list {
+    max-width: 500px;
+}
